@@ -3,51 +3,87 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="shortcut icon" href="../imagenes/favicon-32x32.png">
-	<link rel="stylesheet" href="../estilos/styles.css">
-	<title>Contacto</title>
+	<link rel="shortcut icon" href="imagenes/favicon.ico">
+	<link href="../estilos/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../estilos/styles.css">
+</head>
+  
+	<title>CONTACTO - Luces de Cordillera - Productora Audiovisual</title>
 </head>
 <body>
-	<header>
-		<img src="../imagenes/logo.jpg" width="30%" height="30%">
-		<nav>
-			<ul>
-				<li><a href="../index.html">Home</a></li>
-				<li><a href="../paginas/quienessomos.html">Quienes somos</a></li>
-				<li><a href="../paginas/producto.html">Producto</a></li>
-				<li><a href="../paginas/testimonios.html">Testimonios</a></li>
-				<li><a href="../paginas/contacto.html">Contacto</a></li>
-			</ul>
-		</nav>
-	</header>
-	<section>
-		<p class="textoGrande">CONTACTO</p>
-	</section>
-	<section>
-		<article id="gradiente">
-			<form action="#">
-				<label for="text" class="textoNormal">Nombre:
-				<input type="text" placeholder="NOMBRE"><br>
-				<label for="email" class="textoNormal"></p>Correo electronico:
-					<input type="email" placeholder="correo@electronico.com" name="email"><br>
-				</label>
-				<label for="Observaciones" class="textoNormal"> Comentarios:<br>
-					<textarea placeholder="Comentarios"></textarea>
-				</label> <br>
-								<div>¿Quiere recibir correos de nuestra empresa?
-				<input type="checkbox" name="acepta" value="1"></div>
-				<input type="submit" value="Enviar">
+
+    <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-6">
+			<img src="../imagenes/logo.jpg">
+		</div>
+		<div class="col-md-6">
+			<ul class="nav">
+				<li class="nav-item">
+					<a class="nav-link active" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="../paginas/quienessomos.html">Quienes somos</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link disabled" href="../paginas/producto.html">Producto</a></li>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link disabled" href="../paginas/testimonios.html">Testimonios</a></li>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link disabled" href="../paginas/contacto.html">Contacto</a></li>
+				</li>
 				
-			</form>
-		</article>
-	</section>
-    <footer>
-		<div class="boxRedes">
-			<p>Redes</p>
+
+					</div>
+				
+			</ul>
 		</div>
-		<div class="boxContacto">
-			<p>Contacto</p>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<section>
+				<p class="textoGrande">CONTACTO</p>
+			</section>
+			<section>
+				<article id="gradiente">
+					<form action="#">
+						<label for="text" class="textoNormal">Nombre:
+						<input type="text" placeholder="NOMBRE"><br>
+						<label for="email" class="textoNormal"></p>Correo electronico:
+							<input type="email" placeholder="correo@electronico.com" name="email"><br>
+						</label>
+						<label for="Observaciones" class="textoNormal"> Comentarios:<br>
+							<textarea placeholder="Comentarios"></textarea>
+						</label> <br>
+										<div>¿Quiere recibir correos de nuestra empresa?
+						<input type="checkbox" name="acepta" value="1"></div>
+						<input type="submit" value="Enviar">
+						
+					</form>
+				</article>
+			</section>
 		</div>
-	</footer>
-</body>
+			<div class="row">
+				<div class="col-md-12">
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-md-6">
+					<p>Redes</p>
+				</div>
+				<div class="col-md-6">
+					<p>Contacto</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
 </html>
